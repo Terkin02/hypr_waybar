@@ -7,28 +7,30 @@
 
 Чтобы применить данный waybar, нужно:
 1) Установи проект.
-2) Распакуй архив, в котором находится директория waybar, файл hypr.sh и README.md.
-3) Запусти файл hypr.sh через терминал командой: ./hypr.sh
+2) Распакуй архив.
+3) Перейди в директорию с этими файлами.
+4) Запусти файл hypr.sh через терминал командой: ./hypr.sh
 
 Если по какой-то причине скрипт не сработал, то попробуйт в ручную:
-1) Удали папку waybar в папке .config, а затем перенеси только что установленную директориую waybar в папку .config
-2) Пропиши в тераминал hyprctl reload и перезагрузи устройство.
+1) Удали папку waybar в папке .config, а затем создайте новую папку waybar в папке .config
+2) Перенеси файлы config.jsonc, modules.json и style.css в папку waybar
+3) Пропиши в тераминал hyprctl reload и перезагрузи устройство.
    
 Готово!
 ______________________________________________________________________________________________________________________________________________________________________________________________________
 English.
 
-Guidance!
+Руководство! (Guidance!)
 
-To apply this waybar, you need to:
-1) Install the project.
-2) Unpack the archive containing the waybar directory, the hypr.sh file and README.md.
-3) Run the hypr.sh file through the terminal with the command: ./hypr.sh.
+Чтобы применить данный waybar, нужно:
+1) Установи проект.
+2) Распакуй архив.
+3) Перейди в директорию с этими файлами.
+4) Запусти файл hypr.sh через терминал командой: ./hypr.sh
 
-If for some reason the script doesn't work, try it manually:
-1) Delete the waybar folder in the .config folder, and then move the newly installed waybar directory to the .config folder.
-2) Type hyprctl reload in the terminal and reboot the device.
+Если по какой-то причине скрипт не сработал, то попробуйт в ручную:
+1) Удали папку waybar в папке .config, а затем создайте новую папку waybar в папке .config
+2) Перенеси файлы config.jsonc, modules.json и style.css в папку waybar
+3) Пропиши в тераминал hyprctl reload и перезагрузи устройство.
    
-Done!
-
-Translated with DeepL.com (free version)
+Готово
